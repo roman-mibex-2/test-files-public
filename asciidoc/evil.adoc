@@ -1,0 +1,2 @@
+JavaScript Link
+link:javascript:alert()[More Document]

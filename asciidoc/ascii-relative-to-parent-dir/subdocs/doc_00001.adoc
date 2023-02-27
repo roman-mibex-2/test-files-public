@@ -1,0 +1,20 @@
+[.lead]
+Sub Document 00001
+
+== Topic
+
+=== Context
+
+Here is where you'd put your content
+
+=== Decision
+
+Here is where you'd document your decision
+
+=== Status
+
+8.1.2021 - APPROVED
+
+=== Consequences
+
+Here is where you'd enumerate the consequences of your decision

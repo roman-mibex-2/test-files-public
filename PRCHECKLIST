@@ -1,0 +1,5 @@
+--target master --source feature/* +task+ User Documentation updated?
+--target bugfix/*                  +task+ Is there a automated test reproducing this issue.
+             
+--target release/* --source-except bugfix/* +task+ Double check with the Release Manager if this change is required for the release.
+--target release/* --source release/*       +task+ Double check that the pull request if from older to a newer release

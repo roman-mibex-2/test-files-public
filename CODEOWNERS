@@ -1,0 +1,14 @@
+@@@JavaDevs @"Roman Stoffel" @"Roman Reto Stoffel" @"Brian Goetz"
+@@@Editors @"Roman Reto Stoffel" @"Brian Goetz"
+
+@@@FallbackOwners @"James Gosling" 
+
+@@@group-sre                            @"Roman Reto Stoffel"
+@@@group-dev                            @"Roman Stoffel" @"Brian Goetz"
+@@@no-approval-overlays @@group-dev @@group-sre
+
+*                                       @@group-sre
+*.java									@@group-sre @@group-dev
+*.txt									@@no-approval-overlays
+
+(Check(@@group-sre >=1) | Check(@@group-dev >= 1))
