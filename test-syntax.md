@@ -19,9 +19,7 @@ class HelloWorld{
 ```
 
 ```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
+pie title NETFLIX
+         "Time spent looking for movie" : 90
+         "Time spent watching it" : 10
 ```
