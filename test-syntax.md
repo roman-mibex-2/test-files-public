@@ -17,3 +17,11 @@ class HelloWorld{
   <h1>Test</h1>
 </hey>
 ```
+
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
